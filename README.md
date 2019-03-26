@@ -53,6 +53,16 @@ cd ~/.vim
 tar --strip=1 -zxf vim-markdown-master.tar.gz
 ```
 
+利用vim8的包管理器安装：
+```sh
+$ cd ~/.vim/pack/my-plugins/start
+$ pwd
+/home/osxj/.vim/pack/my-plugins/start
+$ cp  ~/src/master.tar.gz  ./
+$ mkdir vim-markdown
+$ tar --strip=1 -zxf master.tar.gz  -C vim-markdown
+```
+
 ## Basic usage
 
 ### Folding
